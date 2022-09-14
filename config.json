@@ -1,0 +1,36 @@
+{
+    "name": "Recalculate Calc Fields",
+    "namespace": "YaleREDCap\\Recalc",
+    "description": "Recalculate Calculated Fields in a Project.",
+    "permissions": [
+        "redcap_every_page_top"
+    ],
+    "authors": [
+        {
+            "name": "Andrew Poppe",
+            "email": "andrew.poppe@yale.edu",
+            "institution": "Yale Center for Clinical Investigation"
+        }
+    ],
+    "project-settings": [],
+    "links": {
+        "project": [
+            {
+                "name": "Recalculate Calc Fields",
+                "icon": "fas fa-calculator",
+                "url": "recalculate.php",
+                "show-header-and-footer": true
+            }
+        ],
+        "control-center": []
+    },
+    "enable-every-page-hooks-on-system-pages": true,
+    "no-auth-pages": [],
+    "framework-version": 9,
+    "compatibility": {
+        "php-version-min": "7.4",
+        "php-version-max": "",
+        "redcap-version-min": "12.0.4",
+        "redcap-version-max": ""
+    }
+}
