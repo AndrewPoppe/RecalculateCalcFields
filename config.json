@@ -24,7 +24,6 @@
         ],
         "control-center": []
     },
-    "enable-every-page-hooks-on-system-pages": true,
     "no-auth-pages": [],
     "framework-version": 9,
     "compatibility": {
